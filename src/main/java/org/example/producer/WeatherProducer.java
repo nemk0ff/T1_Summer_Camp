@@ -14,7 +14,7 @@ import org.example.model.WeatherData;
 @Slf4j
 public class WeatherProducer {
   private static final String TOPIC = "weather-topic";
-  private static final String BOOTSTRAP_SERVERS = "localhost:9092";
+  private static final String BOOTSTRAP_SERVERS = "localhost:29092";
   private static final ObjectMapper objectMapper = new ObjectMapper();
 
   @SneakyThrows

@@ -13,7 +13,7 @@ import org.example.model.WeatherData;
 @Slf4j
 public class WeatherConsumer {
   private static final String TOPIC = "weather-topic";
-  private static final String BOOTSTRAP_SERVERS = "kafka:9092,localhost:9092"; // Оба адреса через запятую
+  private static final String BOOTSTRAP_SERVERS = "localhost:29092";
   private static final String GROUP_ID = "weather-consumer-group";
   private static final ObjectMapper objectMapper = new ObjectMapper();
 
